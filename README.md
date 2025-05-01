@@ -1,7 +1,4 @@
 # powershell_scripts
-
-The above explanation is written in a conversational format, but it can be easily adapted into a proper Markdown (`.md`) file. Here's the same content formatted as an `.md` file for your GitHub repository:
-
 ---
 
 # Adding Cloudflare IP Ranges to Azure Web App Using PowerShell
@@ -177,4 +174,3 @@ This guide explains how to create, configure, and run a PowerShell script that f
 
 ---
 
-This `.md` file format is GitHub-friendly and structured to make it easy to follow and maintain. Let me know if you need any changes!
