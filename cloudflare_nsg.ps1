@@ -2,12 +2,12 @@
 Login-AzAccount
 
 # Set your Azure subscription context
-$subscriptionId = "cea0340a-3739-4fb9-9d2c-cdbcb5d6e7ec"
+$subscriptionId = ""
 Set-AzContext -SubscriptionId $subscriptionId
 
 # Define variables
-$resourceGroupName = "wig-maxwell-ecm-prd-cac-rg-01"
-$nsgName = "wig-maxwell-ecm-prd-cac-nsg-01-app"
+$resourceGroupName = "wig-maxwell1"
+$nsgName = "wig-maxp"
 
 # Fetch Cloudflare IP ranges
 $ipv4Ranges = (Invoke-RestMethod "https://www.cloudflare.com/ips-v4") -split "`n" | Where-Object { $_.Trim() -ne "" }
